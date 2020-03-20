@@ -1,0 +1,29 @@
+Script started on 2020-03-20 21:35:13+0300
+Hello, aset
+]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ exit[K[K[K[Klast[K[K[K[Ksudo last
+[sudo] пароль для aset: 
+aset     :0           :0               Fri Mar 20 19:56   still logged in
+reboot   system boot  5.3.0-42-generic Fri Mar 20 19:56   still running
+aset     :0           :0               Fri Mar 20 19:14 - down   (00:41)
+reboot   system boot  5.3.0-40-generic Fri Mar 20 19:14 - 19:56  (00:41)
+aset     :0           :0               Sat Mar 14 09:15 - 12:35  (03:20)
+reboot   system boot  5.3.0-40-generic Sat Mar 14 09:14 - 12:35  (03:20)
+aset     :0           :0               Sat Mar  7 11:27 - 12:36  (01:08)
+reboot   system boot  5.3.0-40-generic Sat Mar  7 11:27 - 12:36  (01:09)
+
+wtmp begins Sat Mar  7 11:27:38 2020
+]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$  l[K[Ksudo last -s -14days
+aset     :0           :0               Fri Mar 20 19:56   still logged in
+reboot   system boot  5.3.0-42-generic Fri Mar 20 19:56   still running
+aset     :0           :0               Fri Mar 20 19:14 - down   (00:41)
+reboot   system boot  5.3.0-40-generic Fri Mar 20 19:14 - 19:56  (00:41)
+aset     :0           :0               Sat Mar 14 09:15 - 12:35  (03:20)
+reboot   system boot  5.3.0-40-generic Sat Mar 14 09:14 - 12:35  (03:20)
+aset     :0           :0               Sat Mar  7 11:27 - 12:36  (01:08)
+reboot   system boot  5.3.0-40-generic Sat Mar  7 11:27 - 12:36  (01:09)
+
+wtmp begins Sat Mar  7 11:27:38 2020
+]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ sudo last -s -14days[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on 2020-03-20 21:38:05+0300

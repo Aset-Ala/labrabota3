@@ -1,0 +1,109 @@
+Script started on 2020-03-20 20:08:58+0300
+]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ sudo -i root[1Penablesu rootdo -i
+[sudo] пароль для aset: 
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# useradd frie[K[K[K[K-e2020-06-01 -f 3 friend
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# passwd friend
+Введите новый пароль UNIX: 
+Повторите ввод нового пароля UNIX: 
+passwd: пароль успешно обновлён
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# su friend
+$ passwd
+Смена пароля для friend.
+(текущий) пароль UNIX: 
+Введите новый пароль UNIX: 
+Повторите ввод нового пароля UNIX: 
+Bad: new password is just a wrapped version of the old one
+Введите новый пароль UNIX: 
+Повторите ввод нового пароля UNIX: 
+Bad: new password is too simple
+Введите новый пароль UNIX: 
+Повторите ввод нового пароля UNIX: 
+Bad: new password is too simple
+passwd: Ошибка при операциях с маркером проверки подлинности
+passwd: пароль не изменён
+$ su aset
+Пароль: 
+]0;aset@Aset-VirtualBox: /root[01;32maset@Aset-VirtualBox[00m:[01;34m/root[00m$ sudo -i
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# chfn -f True -o 13 -w 209-52-73 -h 217-52-73 friend
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# usermod -l guest friend
+usermod: user friend is currently used by process 1962
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# злш[K[K[Kpkill -u friend
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# pkill -u friend[8@usermod -l guest[C[C[C[C[C[C[C
+usermod: user friend is currently used by process 1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# usermod -l guest friend[8Ppkill -u[C[C[C[C[C[C[C
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# pkill -u friend[8@usermod -l guest[C[C[C[C[C[C[C
+usermod: user friend is currently used by process 1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# pgrep -u friend
+1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# ps aux | grep 749[K[K[K1974
+friend    [01;31m[K1974[m[K  0.0  0.0   4624   804 pts/2    S    20:10   0:00 sh
+root      2299  0.0  0.0  21824  1000 pts/2    S+   20:18   0:00 grep --color=auto [01;31m[K1974[m[K
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# killall -TERM -u vivek[K[K[K[K[Kfriend
+
+Сеанс завершён, выполняется завершение оболочки…]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# killall -TERM -u friend[5Pps aux | grep 1974[3Pgrep -u friend[8@usermod -l guest[C[C[C[C[C[C[C
+usermod: user friend is currently used by process 1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# usermod -l guest friend[Kusermod -l guest friendkillall -TERM -u[C[C[C[C[C[C[C[5Pps aux | grep 1974kill -15 749[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kkill -15 749[K[K[K1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# kill -15 1974usermod -l guest friend
+usermod: user friend is currently used by process 1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# su friend
+$ sudo ^[[A^[[A^[[A            usermod -l guest friend
+[sudo] пароль для friend: 
+Попробуйте ещё раз.
+[sudo] пароль для friend: 
+friend отсутствует в файле sudoers. Данное действие будет занесено в журнал.
+$ ^[[A^[[B        usermod -l guest friend
+usermod: user friend is currently used by process 1974
+$ sudo -l d /home/guest friend
+sudo: неверный ключ — «d»
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+$ ^[[A^[[B        sudo usermod -d /home/guest/friend        friend
+[sudo] пароль для friend: 
+friend отсутствует в файле sudoers. Данное действие будет занесено в журнал.
+$ su aset
+Пароль: 
+]0;aset@Aset-VirtualBox: /root[01;32maset@Aset-VirtualBox[00m:[01;34m/root[00m$ sudo -i
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# 12[K[Ksu[K[Kgroupadd guests
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# useradd student
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# su friend[K[K[K[K[K[K[K[K[Kuserdell[K fri[K[K[K[K[K[K[K[K[K[K[Ksu friend
+$ exit
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# su frienduseradd studentgroupadd guestsexit[Kuserdel friend[19@add -e 2020-06-01 -f 3[C[C[C[C[C[C[C[19Pdel[C[C[C[C[C[C[Cexit[Kgroupadd guestsuseradd student[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kusermod -l guest friend
+usermod: user friend is currently used by process 1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# usermod -l guest friend[Ksu friend
+$ gpasswd -a student guests
+gpasswd: доступ запрещён.
+$ ^[[A^[[B        sudo    su a    exit
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# gpasswd -Afriend[K[K[K[K[K[K friend guests
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# su friend
+$ gpasswd -a student guests
+Добавление пользователя student в группу guests
+$ exit
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# groupmod -n friends guests
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# groupdel friends
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# userdel -r friend
+userdel: user friend is currently used by process 1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# userdel -r friend[1P friend[1P friend[1Pfriend
+userdel: user friend is currently used by process 1974
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# exit
+выход
+]0;aset@Aset-VirtualBox: /root[01;32maset@Aset-VirtualBox[00m:[01;34m/root[00m$ exit
+exit
+$ exit
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# exit
+выход
+]0;aset@Aset-VirtualBox: /root[01;32maset@Aset-VirtualBox[00m:[01;34m/root[00m$ exit
+exit
+ … ожидает завершения потомка.
+$ exit
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# exit
+выход
+]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-03-20 20:34:04+0300

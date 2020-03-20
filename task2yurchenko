@@ -1,0 +1,235 @@
+Script started on 2020-03-20 20:34:49+0300
+]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ [K]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ clear
+[3J[H[2J]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ sudo -i
+[sudo] пароль для aset: 
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# cat etc/shadow
+cat: etc/shadow: Нет такого файла или каталога
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# cat etc/shadow/etc/shadow
+root:!:18321:0:99999:7:::
+daemon:*:18295:0:99999:7:::
+bin:*:18295:0:99999:7:::
+sys:*:18295:0:99999:7:::
+sync:*:18295:0:99999:7:::
+games:*:18295:0:99999:7:::
+man:*:18295:0:99999:7:::
+lp:*:18295:0:99999:7:::
+mail:*:18295:0:99999:7:::
+news:*:18295:0:99999:7:::
+uucp:*:18295:0:99999:7:::
+proxy:*:18295:0:99999:7:::
+www-data:*:18295:0:99999:7:::
+backup:*:18295:0:99999:7:::
+list:*:18295:0:99999:7:::
+irc:*:18295:0:99999:7:::
+gnats:*:18295:0:99999:7:::
+nobody:*:18295:0:99999:7:::
+systemd-network:*:18295:0:99999:7:::
+systemd-resolve:*:18295:0:99999:7:::
+syslog:*:18295:0:99999:7:::
+messagebus:*:18295:0:99999:7:::
+_apt:*:18295:0:99999:7:::
+uuidd:*:18295:0:99999:7:::
+avahi-autoipd:*:18295:0:99999:7:::
+usbmux:*:18295:0:99999:7:::
+dnsmasq:*:18295:0:99999:7:::
+rtkit:*:18295:0:99999:7:::
+cups-pk-helper:*:18295:0:99999:7:::
+speech-dispatcher:!:18295:0:99999:7:::
+whoopsie:*:18295:0:99999:7:::
+kernoops:*:18295:0:99999:7:::
+saned:*:18295:0:99999:7:::
+pulse:*:18295:0:99999:7:::
+avahi:*:18295:0:99999:7:::
+colord:*:18295:0:99999:7:::
+hplip:*:18295:0:99999:7:::
+geoclue:*:18295:0:99999:7:::
+gnome-initial-setup:*:18295:0:99999:7:::
+gdm:*:18295:0:99999:7:::
+aset:$6$i.QBdiy1$wl0EZUNXrQNl/Ces.LpazJSNfIgg/l6FNQZJ4ZPY9hvPmb5gWgtEkNY7/ms7hwR6DfBXpigMEsshzYJkwiE/l1:18321:0:99999:7:::
+friend:$6$wQqt33oV$1oqhXTUjhxu6NbE98rY85We7ck9R6QcRYpgwgbPH1nIwOho3fcMFx2v4pRQZyUkrBf9Cu/75xc2BrE8AkE2gP1:18341:0:99999:7:3:18414:
+student:!:18341:0:99999:7:::
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# пкщгзфвв гыук[K[K[K[K[K[K[K[K[K[K[K[K[Kgroupadd user
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G us er?[K, mail test1[1P
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# useradd test2
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# chage -l test2
+Последний раз пароль был изменён				: мар 20, 2020
+Срок действия пароля истекает					: никогда
+Пароль будет деактивирован через				: никогда
+Срок действия учётной записи истекает				: никогда
+Минимальное количество дней между сменой пароля			: 0
+Максимальное количество дней между сменой пароля		: 99999
+Количество дней с предупреждением перед деактивацией пароля	: 7
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# cd /home/test2
+-bash: cd: /home/test2: Нет такого файла или каталога
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# usermod -l test3 test2
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# userdel test3
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# useradd test3[K4
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# passwd test4
+Введите новый пароль UNIX: 
+Повторите ввод нового пароля UNIX: 
+passwd: пароль успешно обновлён
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# cat /ets[Kc/shadow
+root:!:18321:0:99999:7:::
+daemon:*:18295:0:99999:7:::
+bin:*:18295:0:99999:7:::
+sys:*:18295:0:99999:7:::
+sync:*:18295:0:99999:7:::
+games:*:18295:0:99999:7:::
+man:*:18295:0:99999:7:::
+lp:*:18295:0:99999:7:::
+mail:*:18295:0:99999:7:::
+news:*:18295:0:99999:7:::
+uucp:*:18295:0:99999:7:::
+proxy:*:18295:0:99999:7:::
+www-data:*:18295:0:99999:7:::
+backup:*:18295:0:99999:7:::
+list:*:18295:0:99999:7:::
+irc:*:18295:0:99999:7:::
+gnats:*:18295:0:99999:7:::
+nobody:*:18295:0:99999:7:::
+systemd-network:*:18295:0:99999:7:::
+systemd-resolve:*:18295:0:99999:7:::
+syslog:*:18295:0:99999:7:::
+messagebus:*:18295:0:99999:7:::
+_apt:*:18295:0:99999:7:::
+uuidd:*:18295:0:99999:7:::
+avahi-autoipd:*:18295:0:99999:7:::
+usbmux:*:18295:0:99999:7:::
+dnsmasq:*:18295:0:99999:7:::
+rtkit:*:18295:0:99999:7:::
+cups-pk-helper:*:18295:0:99999:7:::
+speech-dispatcher:!:18295:0:99999:7:::
+whoopsie:*:18295:0:99999:7:::
+kernoops:*:18295:0:99999:7:::
+saned:*:18295:0:99999:7:::
+pulse:*:18295:0:99999:7:::
+avahi:*:18295:0:99999:7:::
+colord:*:18295:0:99999:7:::
+hplip:*:18295:0:99999:7:::
+geoclue:*:18295:0:99999:7:::
+gnome-initial-setup:*:18295:0:99999:7:::
+gdm:*:18295:0:99999:7:::
+aset:$6$i.QBdiy1$wl0EZUNXrQNl/Ces.LpazJSNfIgg/l6FNQZJ4ZPY9hvPmb5gWgtEkNY7/ms7hwR6DfBXpigMEsshzYJkwiE/l1:18321:0:99999:7:::
+friend:$6$wQqt33oV$1oqhXTUjhxu6NbE98rY85We7ck9R6QcRYpgwgbPH1nIwOho3fcMFx2v4pRQZyUkrBf9Cu/75xc2BrE8AkE2gP1:18341:0:99999:7:3:18414:
+student:!:18341:0:99999:7:::
+test1:!:18341:0:99999:7:::
+test4:$6$3l0revLd$vyIx1jlFLULlBqp27lA6v8jIRBx5GfBQYcho2539/bSFZZTOC2FDWO/6D9y4F32oAcNVkIwpYN7cRe1.YJYFI1:18341:0:99999:7:::
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# chage -E 2020-12-31 test4
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# chage -E 2020-12-31 test4[10Pat /etc/shadow
+root:!:18321:0:99999:7:::
+daemon:*:18295:0:99999:7:::
+bin:*:18295:0:99999:7:::
+sys:*:18295:0:99999:7:::
+sync:*:18295:0:99999:7:::
+games:*:18295:0:99999:7:::
+man:*:18295:0:99999:7:::
+lp:*:18295:0:99999:7:::
+mail:*:18295:0:99999:7:::
+news:*:18295:0:99999:7:::
+uucp:*:18295:0:99999:7:::
+proxy:*:18295:0:99999:7:::
+www-data:*:18295:0:99999:7:::
+backup:*:18295:0:99999:7:::
+list:*:18295:0:99999:7:::
+irc:*:18295:0:99999:7:::
+gnats:*:18295:0:99999:7:::
+nobody:*:18295:0:99999:7:::
+systemd-network:*:18295:0:99999:7:::
+systemd-resolve:*:18295:0:99999:7:::
+syslog:*:18295:0:99999:7:::
+messagebus:*:18295:0:99999:7:::
+_apt:*:18295:0:99999:7:::
+uuidd:*:18295:0:99999:7:::
+avahi-autoipd:*:18295:0:99999:7:::
+usbmux:*:18295:0:99999:7:::
+dnsmasq:*:18295:0:99999:7:::
+rtkit:*:18295:0:99999:7:::
+cups-pk-helper:*:18295:0:99999:7:::
+speech-dispatcher:!:18295:0:99999:7:::
+whoopsie:*:18295:0:99999:7:::
+kernoops:*:18295:0:99999:7:::
+saned:*:18295:0:99999:7:::
+pulse:*:18295:0:99999:7:::
+avahi:*:18295:0:99999:7:::
+colord:*:18295:0:99999:7:::
+hplip:*:18295:0:99999:7:::
+geoclue:*:18295:0:99999:7:::
+gnome-initial-setup:*:18295:0:99999:7:::
+gdm:*:18295:0:99999:7:::
+aset:$6$i.QBdiy1$wl0EZUNXrQNl/Ces.LpazJSNfIgg/l6FNQZJ4ZPY9hvPmb5gWgtEkNY7/ms7hwR6DfBXpigMEsshzYJkwiE/l1:18321:0:99999:7:::
+friend:$6$wQqt33oV$1oqhXTUjhxu6NbE98rY85We7ck9R6QcRYpgwgbPH1nIwOho3fcMFx2v4pRQZyUkrBf9Cu/75xc2BrE8AkE2gP1:18341:0:99999:7:3:18414:
+student:!:18341:0:99999:7:::
+test1:!:18341:0:99999:7:::
+test4:$6$3l0revLd$vyIx1jlFLULlBqp27lA6v8jIRBx5GfBQYcho2539/bSFZZTOC2FDWO/6D9y4F32oAcNVkIwpYN7cRe1.YJYFI1:18341:0:99999:7::18627:
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# [K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# зфыыцв -в[K[K[K[K[K[K[K[K[Kpasswd -d test4
+passwd: информация об истечении срока действия пароля изменена.
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# passwd -d test4cat /etc/shadow
+root:!:18321:0:99999:7:::
+daemon:*:18295:0:99999:7:::
+bin:*:18295:0:99999:7:::
+sys:*:18295:0:99999:7:::
+sync:*:18295:0:99999:7:::
+games:*:18295:0:99999:7:::
+man:*:18295:0:99999:7:::
+lp:*:18295:0:99999:7:::
+mail:*:18295:0:99999:7:::
+news:*:18295:0:99999:7:::
+uucp:*:18295:0:99999:7:::
+proxy:*:18295:0:99999:7:::
+www-data:*:18295:0:99999:7:::
+backup:*:18295:0:99999:7:::
+list:*:18295:0:99999:7:::
+irc:*:18295:0:99999:7:::
+gnats:*:18295:0:99999:7:::
+nobody:*:18295:0:99999:7:::
+systemd-network:*:18295:0:99999:7:::
+systemd-resolve:*:18295:0:99999:7:::
+syslog:*:18295:0:99999:7:::
+messagebus:*:18295:0:99999:7:::
+_apt:*:18295:0:99999:7:::
+uuidd:*:18295:0:99999:7:::
+avahi-autoipd:*:18295:0:99999:7:::
+usbmux:*:18295:0:99999:7:::
+dnsmasq:*:18295:0:99999:7:::
+rtkit:*:18295:0:99999:7:::
+cups-pk-helper:*:18295:0:99999:7:::
+speech-dispatcher:!:18295:0:99999:7:::
+whoopsie:*:18295:0:99999:7:::
+kernoops:*:18295:0:99999:7:::
+saned:*:18295:0:99999:7:::
+pulse:*:18295:0:99999:7:::
+avahi:*:18295:0:99999:7:::
+colord:*:18295:0:99999:7:::
+hplip:*:18295:0:99999:7:::
+geoclue:*:18295:0:99999:7:::
+gnome-initial-setup:*:18295:0:99999:7:::
+gdm:*:18295:0:99999:7:::
+aset:$6$i.QBdiy1$wl0EZUNXrQNl/Ces.LpazJSNfIgg/l6FNQZJ4ZPY9hvPmb5gWgtEkNY7/ms7hwR6DfBXpigMEsshzYJkwiE/l1:18321:0:99999:7:::
+friend:$6$wQqt33oV$1oqhXTUjhxu6NbE98rY85We7ck9R6QcRYpgwgbPH1nIwOho3fcMFx2v4pRQZyUkrBf9Cu/75xc2BrE8AkE2gP1:18341:0:99999:7:3:18414:
+student:!:18341:0:99999:7:::
+test1:!:18341:0:99999:7:::
+test4::18341:0:99999:7::18627:
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# зфыыцв -[K[K[K[K[K[K[K[Kpasswd test4 -l
+passwd: информация об истечении срока действия пароля изменена.
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# addgroup --gid 1010 xusers
+Добавляется группа «xusers» (GID 1010) ...
+Готово.
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# groupadd xusers -[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadduser aset xusers
+Добавляется пользователь «aset» в группу «xusers» ...
+Добавление пользователя aset в группу xusers
+Готово.
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# groupmod xusers -n yusers
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc[K]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# nano /etc/bashrc
+[?1049h[22;0;0t[1;22r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[20;34H(B[0;7m[ Новый файл ](B[m[H(B[0;7m  GNU nano 2.9.3                      /etc/bashrc                               [1;79H(B[m[21d(B[0;7m^G(B[m Помощь    (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^J(B[m Выровнять (B[0;7m^C(B[m ТекПозиц[22d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Отмен. выр(B[0;7m^T(B[m Словарь   (B[0;7m^_(B[m К строке[20d[3d[49m(B[m[?12l[?25h[?25l[20d[J[22;80H[?12l[?25h[22;1H[?1049l[23;0;0t[?1l>]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# /etc/bash/[K.bashrc
+-bash: /etc/bash.bashrc: Отказано в доступе
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# exit
+выход
+]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ sudo -i
+[sudo] пароль для aset: 
+]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# exit/etc/bash.bashrcn/etc/bash.bashrca/etc/bash.bashrcn/etc/bash.bashrco/etc/bash.bashrc /etc/bash.bashrc
+[?1049h[22;0;0t[1;22r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[20;33H(B[0;7m[ Чтение файла ](B[m[20;32H(B[0;7m[ Read 71 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                   /etc/bash.bashrc                             [1;79H(B[m[21d(B[0;7m^G(B[m Помощь    (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^J(B[m Выровнять (B[0;7m^C(B[m ТекПозиц[22d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Отмен. выр(B[0;7m^T(B[m Словарь   (B[0;7m^_(B[m К строке[20d[3d[39;49m[36m# System-wide .bashrc file for interactive bash(1) shells.[5d# To enable the settings / commands in this file for login shells as well,[6d# this file has to be sourced in /etc/profile.[8d# If not running interactively, don't do anything[9d[39m(B[m[ -z "$PS1" ] && return[11d[36m# check the window size after each command and, if necessary,[12d# update the values of LINES and COLUMNS.[13d[39m(B[mshopt -s checkwinsize[15d[36m# set variable identifying the chroot you work in (used in the prompt below)[16d[39m(B[mif [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then[17;5Hdebian_chroot=$(cat /etc/debian_chroot)[18dfi[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l7[3;19r8[9S[1;22r[11;1H[36m# set a fancy prompt (non-color, overwrite the one in /etc/profile)[12d# but only if not SUDOing and have SUDO_PS1 set; then assume smart user.[13d[39m(B[mif ! [ -n "${SUDO_USER}" -a -n "${SUDO_PS1}" ]; then[14;3HPS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[15dfi[17d[36m# Commented out, don't overwrite xterm -T "title" -n "icontitle" by default.[18d# If this is an xterm set the title to user@host:dir[19d#case "$TERM" in[11d[39m(B[m[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l7[3;20r8[20d[9S[1;22r[11;1H[36m#xterm*|rxvt*)[39m(B[m[K[12d[36m#    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'[13d#    ;;[14d#*)[15d#    ;;[16d#esac[18d# enable bash completion in interactive shells[19d#if ! shopt -oq posix; then[11d[39m(B[m[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l7[3;20r8[20d[9S[1;22r[11;1H[36m#  if [ -f /usr/share/bash-completion/bash_completion ]; then[12d#    . /usr/share/bash-completion/bash_completion[13d#  elif [ -f /etc/bash_completion ]; then[14d#    . /etc/bash_completion[15d#  fi[16d#fi[18d# sudo hint[19d[39m(B[mif [ ! -e "$HOME/.sudo_as_admin_successful" ] && [ ! -e "$HOME/.hushlogin" ] ; $[11;1H[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l7[3;20r8[20d[9S[1;22r[11;5Hcase " $(groups) " in *\ admin\ *|*\ sudo\ *)[12;5Hif [ -x /usr/bin/sudo ]; then[13;9Hcat <<-EOF[14;9HTo run a command as administrator (user "root"), use "sudo <command>".[15;9HSee "man sudo_root" for details.[17;9HEOF[18;5Hfi[19desac[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l7[2;20r8[20d[9S[1;22r[2;1H[K[11dfi[13d[36m# if the command-not-found package is installed, use it[14d[39m(B[mif [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-n$[15;9Hfunction command_not_found_handle {[16;16H[36m[1K # check because c-n-f could've been removed in the meantime[17;17H[39m(B[mif [ -x /usr/lib/command-not-found ]; then[18;20H/usr/lib/command-not-found -- "$1"[19;20Hreturn $?[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l7[2;20r8[20d[9S[1;22r[2;1H[K[11;17Helif [ -x /usr/share/command-not-found/command-not-found ]; then[12;20H/usr/share/command-not-found/command-not-found -- "$1"[13;20Hreturn $?[14;17Helse[15dprintf "%s: command not found\n" "$1" >&2[16;20Hreturn 127[17;17Hfi[18;9H}[19dfi[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l7[2;20r8[20d[9S[1;22r[2;1H[K[11d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;72H(B[0;7mИзменён(B[m[11de[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lW[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lAset[K[?12l[?25h[?25l.Aset[?12l[?25h[?25lAset[K[?12l[?25h[?25l<Aset[?12l[?25h[?25lAset[K[?12l[?25h[?25l?Aset[?12l[?25h[?25lAset[K[?12l[?25h[?25l,Aset[?12l[?25h[?25l Aset[?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lset[K[?12l[?25h[?25laset[?12l[?25h[?25l[20d(B[0;7mСохранить изменённый буфер?  (При ответе "Нет" все изменения будут ПОТЕРЯНЫ.)   [21;1H Y(B[m Да[K[22d(B[0;7m N(B[m Нет          (B[0;7m^C(B[m Отмена[K[20;79H[?12l[?25h[?25l[21d(B[0;7m^G(B[m Помощь[21;21H(B[0;7mM-D(B[m Формат DOS[41G(B[0;7mM-A(B[m Доп. в начало   (B[0;7mM-B(B[m Резерв. копия[22d(B[0;7m^C(B[m Отмена[17G    (B[0;7mM-M(B[m Формат Mac[41G(B[0;7mM-P(B[m Доп. в конец    (B[0;7m^T(B[m К файлам[20d(B[0;7mИмя файла для записи: /etc/bash.bashrc                                       (B[m[20;39H[?12l[?25h[?25l[K[1;79H[72G(B[0;7m       (B[m[20;32H(B[0;7m[ Wrote 72 lines ](B[m[J[22;80H[?12l[?25h[22;1H[?1049l[23;0;0t[?1l>]0;root@Aset-VirtualBox: ~root@Aset-VirtualBox:~# exit
+выход
+]0;aset@Aset-VirtualBox: ~[01;32maset@Aset-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-03-20 21:32:33+0300
